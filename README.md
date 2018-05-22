@@ -5,31 +5,34 @@ Lossless data compression algorithm using optimal prefix codes.
 Created on Apr 21, 2018
 By Ben Mackenzie
 
-Program specifications
 
-I. Purpose
-This program is intended to explore text compression using the Huffman Algorithm
-and reinforce concepts related to building and traversing trees and using
-other data structures.
+Purpose
 
-II. Input
-A string that will be compressed using the Huffman Algorithm.
+    This program is intended to explore text compression using the Huffman Algorithm
+    and reinforce concepts related to building and traversing trees and using
+    other data structures.
 
-III. Output
-A compressed representation of the input text using the Huffman Codes generated and
-a decompression of the compressed representation, which should match the original string.
+Input
 
-IV. Bugs or Implemented Test Cases; and, any theoretical follow-up 
-The character-by-character encoding was first tested on a set of sample characters and frequencies, along with the methods
-supporting the encoding and representation (including the header method).
-A full test of the functionality described in section III constitutes the bulk of the project.
+    A string that will be compressed using the Huffman Algorithm.
+
+Output
+
+    A compressed representation of the input text using the Huffman Codes generated and
+    a decompression of the compressed representation, which should match the original string.
+
+Bugs or Implemented Test Cases; and, any theoretical follow-up 
+    
+    The character-by-character encoding was first tested on a set of sample characters and frequencies, along with the methods
+    supporting the encoding and representation (including the header method).
+    A full test of the functionality described in section III constitutes the bulk of the project.
 
 
 Proof of optimality of Huffman Code
 
-The Huffman Code produces an optimal prefix code if it creates trees representing the code that have
-a minimum external path length.  Here I will prove that the Huffman Code produces trees that satisfy 
-this condition using induction.
+    The Huffman Code produces an optimal prefix code if it creates trees representing the code that have
+    a minimum external path length.  Here I will prove that the Huffman Code produces trees that satisfy 
+    this condition using induction.
 
 Lemma
 
@@ -57,7 +60,7 @@ Proof
     
 Linear Performance for Symbols Sorted by Frequency
 
-If the symbols are sorted by frequency, the algorithm can avoid the nlogn complexity associated with most
-sorting.  With this step out of the picture, the algorithm has to build the tree and traverse the tree n times
-where n is the number of characters being encoded.  This leaves us with a linear performance for the 
-Huffman Algorithm on pre-sorted lists.
+    If the symbols are sorted by frequency, the algorithm can avoid the nlogn complexity associated with most
+    sorting.  With this step out of the picture, the algorithm has to build the tree and traverse the tree n times
+    where n is the number of characters being encoded.  This leaves us with a linear performance for the 
+    Huffman Algorithm on pre-sorted lists.
