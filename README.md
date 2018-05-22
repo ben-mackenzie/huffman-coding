@@ -19,8 +19,8 @@ Output
 
 Bugs or Implemented Test Cases; and, any theoretical follow-up 
     
-    The character-by-character encoding was first tested on a set of sample characters and frequencies, along with the methods
-    supporting the encoding and representation (including the header method).
+    The character-by-character encoding was first tested on a set of sample characters and frequencies, 
+    along with the methods supporting the encoding and representation (including the header method).
     A full test of the functionality described in section III constitutes the bulk of the project.
 
 
