@@ -60,5 +60,5 @@ Linear Performance for Symbols Sorted by Frequency
     where n is the number of characters being encoded.  This leaves us with a linear performance for the 
     Huffman Algorithm on pre-sorted lists.
     
- Ben Mackenzie
+ Ben Mackenzie - 
  Apr 21, 2018
