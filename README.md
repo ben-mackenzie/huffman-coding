@@ -2,10 +2,6 @@
 Lossless data compression algorithm using optimal prefix codes.
 
 
-Created on Apr 21, 2018
-By Ben Mackenzie
-
-
 Purpose
 
     This program is intended to explore text compression using the Huffman Algorithm
@@ -64,3 +60,6 @@ Linear Performance for Symbols Sorted by Frequency
     sorting.  With this step out of the picture, the algorithm has to build the tree and traverse the tree n times
     where n is the number of characters being encoded.  This leaves us with a linear performance for the 
     Huffman Algorithm on pre-sorted lists.
+    
+Ben Mackenzie
+Apr 21, 2018
