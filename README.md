@@ -4,9 +4,8 @@ Lossless data compression algorithm using optimal prefix codes.
 
 Purpose
 
-    This program is intended to explore text compression using the Huffman Algorithm
-    and reinforce concepts related to building and traversing trees and using
-    other data structures.
+    This program is intended to explore text compression using the Huffman Algorithm and reinforce concepts 
+    related to building and traversing trees and using other data structures.
 
 Input
 
@@ -17,7 +16,7 @@ Output
     A compressed representation of the input text using the Huffman Codes generated and
     a decompression of the compressed representation, which should match the original string.
 
-Bugs or Implemented Test Cases; and, any theoretical follow-up 
+Bugs or Implemented Test Cases
     
     The character-by-character encoding was first tested on a set of sample characters and frequencies, 
     along with the methods supporting the encoding and representation (including the header method).
